@@ -19,12 +19,12 @@ VALUES  (10, 'HR Manager', 120000, 1),
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES  (101, 'Toby', 'Flenderson', 10, NULL),
-        (102, 'Kelly', 'Kapoor', 11, 1001),
+        (102, 'Kelly', 'Kapoor', 11, 101),
         (103, 'Michael', 'Scott', 20, NULL),
-        (104, 'Jim', 'Halpert', 21, 1003),
+        (104, 'Jim', 'Halpert', 21, 103),
         (105, 'David', 'Wallace', 30, NULL),
         (106, 'Jan', 'Levinson', 31, 1005),
         (107, 'Angela', 'Martin', 40, NULL),
-        (108, 'Kevin', 'Malone', 41, 1007),
+        (108, 'Kevin', 'Malone', 41, 107),
         (109, 'Pam', 'Beesly', 50, NULL),
-        (110, 'Creed', 'Bratton', 51, 1009);
+        (110, 'Creed', 'Bratton', 51, 109);
